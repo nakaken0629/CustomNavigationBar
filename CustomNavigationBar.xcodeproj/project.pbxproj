@@ -14,6 +14,7 @@
 		BAEDCCEF1BD51B8B00109150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEDCCED1BD51B8B00109150 /* LaunchScreen.storyboard */; };
 		BAEDCCFA1BD51B8B00109150 /* CustomNavigationBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDCCF91BD51B8B00109150 /* CustomNavigationBarTests.swift */; };
 		BAEDCD051BD51B8B00109150 /* CustomNavigationBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDCD041BD51B8B00109150 /* CustomNavigationBarUITests.swift */; };
+		BAEDCD131BD51D2600109150 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDCD121BD51D2600109150 /* CustomViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BAEDCD001BD51B8B00109150 /* CustomNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEDCD041BD51B8B00109150 /* CustomNavigationBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarUITests.swift; sourceTree = "<group>"; };
 		BAEDCD061BD51B8B00109150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEDCD121BD51D2600109150 /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				BAEDCCE41BD51B8B00109150 /* AppDelegate.swift */,
 				BAEDCCE61BD51B8B00109150 /* ViewController.swift */,
 				BAEDCCE81BD51B8B00109150 /* Main.storyboard */,
+				BAEDCD121BD51D2600109150 /* CustomViewController.swift */,
 				BAEDCCEB1BD51B8B00109150 /* Assets.xcassets */,
 				BAEDCCED1BD51B8B00109150 /* LaunchScreen.storyboard */,
 				BAEDCCF01BD51B8B00109150 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEDCD131BD51D2600109150 /* CustomViewController.swift in Sources */,
 				BAEDCCE71BD51B8B00109150 /* ViewController.swift in Sources */,
 				BAEDCCE51BD51B8B00109150 /* AppDelegate.swift in Sources */,
 			);
