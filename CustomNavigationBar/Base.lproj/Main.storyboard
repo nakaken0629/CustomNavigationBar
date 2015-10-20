@@ -7,7 +7,7 @@
         <!--１枚目-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CustomViewController" customModule="CustomNavigationBar" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -30,7 +30,9 @@
                             <constraint firstItem="1G1-ku-Q00" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wRp-P0-75d"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="１枚目" id="N80-MC-sQf"/>
+                    <navigationItem key="navigationItem" title="１枚目" id="N80-MC-sQf">
+                        <barButtonItem key="backBarButtonItem" title="戻る" id="kyQ-XU-oTm"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
