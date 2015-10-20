@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--ダミー-->
+        <!--１枚目-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="CustomViewController" customModule="CustomNavigationBar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,13 +15,45 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1G1-ku-Q00">
+                                <rect key="frame" x="285" y="285" width="30" height="30"/>
+                                <state key="normal" title="次へ"/>
+                                <connections>
+                                    <segue destination="2fu-lu-s7R" kind="show" id="uYv-wK-6sK"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1G1-ku-Q00" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gpf-8d-aEe"/>
+                            <constraint firstItem="1G1-ku-Q00" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wRp-P0-75d"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="ダミー" id="N80-MC-sQf"/>
+                    <navigationItem key="navigationItem" title="１枚目" id="N80-MC-sQf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1005" y="-355"/>
+        </scene>
+        <!--２枚目-->
+        <scene sceneID="J46-BG-qyl">
+            <objects>
+                <viewController id="2fu-lu-s7R" customClass="CustomViewController" customModule="CustomNavigationBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pdf-QW-c6h"/>
+                        <viewControllerLayoutGuide type="bottom" id="s4G-hz-Adh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kpd-9g-ZQb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="２枚目" id="T5I-J7-IAQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OS9-qJ-aoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1706" y="-355"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xHu-Dz-NaR">
